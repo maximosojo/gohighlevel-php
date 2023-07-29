@@ -11,3 +11,9 @@
 
 namespace Maximosojo\GoHighLevelPHP\Lib;
 
+use Psr\Log\LoggerAwareInterface;
+
+abstract class GoHighLevelPHP implements LoggerAwareInterface
+{
+
+}
