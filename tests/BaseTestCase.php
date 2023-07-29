@@ -9,11 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Maximosojo\GoHighLevelPHP\Lib;
+namespace Maximosojo\GoHighLevelPHP\Tests;
 
-use Psr\Log\LoggerAwareInterface;
+use PHPUnit\Framework\TestCase;
 
-abstract class GoHighLevelPHP implements LoggerAwareInterface
+class BaseTestCase extends TestCase
 {
-
 }
