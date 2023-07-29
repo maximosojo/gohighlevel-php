@@ -1,0 +1,23 @@
+{
+  "name": "maximosojo/gohighlevel-php",
+  "description": "GoHighLevel PHP",
+  "keywords": ["gohighlevel"],
+  "homepage": "https://maximosojo.github.io/gohighlevel-php",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+        {
+            "name": "Máximo Sojo",
+            "email": "maxsojo13@gmail.com"
+        }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+      "php": ">=5.3.2",
+        "ext-curl": "*",
+        "ext-json": "*"
+  },
+  "autoload": {
+      "psr-4": { "Maximosojo\\GoHighLevelPHP\\": "" }
+  }
+}
