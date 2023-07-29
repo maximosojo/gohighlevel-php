@@ -18,6 +18,13 @@
         "ext-json": "*"
   },
   "autoload": {
-      "psr-4": { "Maximosojo\\GoHighLevelPHP\\": "" }
+      "psr-4": {
+        "Maximosojo\\GoHighLevelPHP\\": "src"
+      }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Maximosojo\\GoHighLevelPHP\\Tests\\": "tests"
+    }
   }
 }
